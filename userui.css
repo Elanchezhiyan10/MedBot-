@@ -1,0 +1,35 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+
+#chat {
+    background-color: lightgray;
+    width: 500px;
+    height: 500px;
+}
+
+#user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#text {
+    width: 300px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+
+
+}
+
+body {
+    background-color: #0077b6;
+}
+
+#med {
+    margin-top: 0px;
+}

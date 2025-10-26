@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form action="chatlogin.php" method="POST">
+        <div id="login">
+            <section>
+                <img src="MEDBOT.png" alt="">
+                <h1 id="med">Medical chatbot</h1>
+            </section>
+            <section id="det">
+                <div>
+                    <label for="ema">Email Id</label><br>
+                    <input type="text" id="ema" name="email" placeholder="Enter your email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="pass">Password</label><br>
+                    <input type="password" id="pass" name="password" placeholder="Enter your password" required><br>
+                </div>
+
+
+                <div id="but">
+                    <button id="butlog">LOGIN</button><br>
+                    <span>New user?<a href="signup.html" id="sigbut">Signup</a></span>
+                </div>
+            </section>
+        </div>
+    </form>
+    <script src="chatproject.js"></script>
+</body>
+
+</html>
