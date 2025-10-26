@@ -1,4 +1,4 @@
-# MedBot-
+# MedBot
 Step 1:Open cmd and direct to your project folder
 Step 2:Connect the SQL server connection from VsCode
 Step 3:Start the php server by typing the php -S command with localhost:8000 address
